@@ -27,7 +27,11 @@ public class Greeter {
     String language = args[0];
     String country = args[1];
     String name = args[2];
+//<<<<<<< HEAD
     Greeter greeter = new Greeter(language, country, name.toUpperCase());
+//=======
+ //   Greeter greeter = new Greeter(language, country, "-" + name + "-");
+//>>>>>>> feature-2
     System.out.println(greeter.sayHello());
   }
 }
